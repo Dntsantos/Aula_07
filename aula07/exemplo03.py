@@ -5,6 +5,9 @@ for n in range(5):
     lista_numeros.append(num)
 
 print(lista_numeros[0])
-lista_numeros[0] = 22 # altera o valor do indice 0
-lista_numeros.pop(-2) # deleta o ultimo numero
-lista_numeros.remove(30) # deleta pelo valor
+lista_numeros[0] = 22 # Altera o valor do ídice 0
+lista_numeros.pop()  # Deleta o último
+lista_numeros.remove(30)  # Deleta pelo valor
+# del lista_numeros[0]
+lista_numeros.clear()
+print(lista_numeros)
